@@ -1,4 +1,4 @@
-module AsyncRequireRails
+module FractaljsRails
   class Middleware
     def initialize(app)
       @app = app

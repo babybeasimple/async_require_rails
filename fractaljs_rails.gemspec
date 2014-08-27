@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'async_require_rails/version'
+require 'fractaljs_rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "async_require_rails"
-  spec.version       = AsyncRequireRails::VERSION
+  spec.name          = "fractaljs_rails"
+  spec.version       = FractaljsRails::VERSION
   spec.authors       = ["babybeasimple"]
   spec.email         = ["babybeasimple@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}

@@ -1,7 +1,7 @@
 require 'connection_pool'
 require 'Faraday'
 
-module AsyncRequireRails
+module FractaljsRails
   class Client
     POOL_SIZE = 16
     POOL_ACCESS_MUTEX = Mutex.new

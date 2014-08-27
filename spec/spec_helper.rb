@@ -1,1 +1,1 @@
-require 'async_require_rails'
+require 'fractaljs_rails'
